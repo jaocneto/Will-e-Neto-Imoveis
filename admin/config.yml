@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  branch: principal
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "imoveis"
+    label: "Imóveis"
+    folder: "content/imoveis"
+    create: true
+
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
